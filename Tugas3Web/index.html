@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+</head>
+<body>
+    <h1>Library</h1>
+    <button onclick="addBook()">Tambah Buku</button>
+    <button onclick="markAllRead()">Tandai Semua Sudah Dibaca</button>
+    <button onclick="convertToJSON()">Konversi ke JSON</button>
+    <div>
+        <label>Judul:</label>
+        <input type="text" id="titleInput">
+    </div>
+    <div>
+        <label>Penulis:</label>
+        <input type="text" id="authorInput">
+    </div>
+    <div>
+        <ul id="libraryList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
